@@ -6,20 +6,6 @@
 body{   
     margin:0;
 }
-.btn{
-    border-radius: 8px;
-    background-color: #E55473;
-    color: #FFF;
-    font-family: Lato;
-    font-size: 20px;
-    font-weight: 700;
-    border:none;
-    padding:20px 40px;
-}
-
-.insta-deal,.featured-extra{
-    margin:90px;
-}
 
 /* header style */
 /* banner */
@@ -46,6 +32,16 @@ body{
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
+}
+.btn{
+    border-radius: 8px;
+    background-color: #E55473;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    border:none;
+    padding:20px 40px;
 }
 
 /* banner image */
@@ -109,9 +105,12 @@ figure figurecaption h4{
     font-weight: 400;
     margin: 30px;
 }
+/*insta */
+.insta-deal,.featured-extra{
+    margin:90px;
+}
 .box-text{
-    /* text-align: center; */
-    /* max-width:500px; */
+    
     display:flex;
     flex-direction: column;
     align-items:center;
@@ -131,9 +130,10 @@ figure figurecaption h4{
     max-width:500px;
 }
 .box-container{
-    
+    gap: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    
 }
 
 .box img{
@@ -144,7 +144,23 @@ figure figurecaption h4{
 }
 
 
-/* deal section style */
+
+.feature-2{
+    width: 1200px;
+    height: 300px;
+   background-color: beige;
+   margin-left: 150px;
+   margin-bottom: 50px;
+    
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+   padding-top: 80px;
+}
+
+
+/* deal  */
 .deal-parent{
     background-image: url('./Flower Asset/Rectangle\ 9.png');
     background-repeat: no-repeat;
@@ -171,7 +187,6 @@ figure figurecaption h4{
 }
 .subscribe-frm{
     display: flex;
-    /* justify-content: space-between; */
     gap:15px;
 }
 
@@ -186,11 +201,11 @@ border-radius: 8px;
 background-color: #FFF;
 width:100%;
 }
-/* footer styles */
+/* footer*/
 
 footer{
 background-color:#272727;
-/* text-align: center; */
+
 height:350px;
 display: flex;
 align-items:center;

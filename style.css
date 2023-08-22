@@ -142,3 +142,77 @@ figure figurecaption h4{
     width:250px;
     height: 300px;
 }
+
+
+/* deal section style */
+.deal-parent{
+    background-image: url('./Flower Asset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    text-align: center;
+    padding:70px 140px;
+}
+
+.deal-content h2{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.deal-content p{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.subscribe-frm{
+    display: flex;
+    /* justify-content: space-between; */
+    gap:15px;
+}
+
+.subscribe-frm input{
+    border:none;
+    padding:20px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: left;
+    font-size: 16px;
+font-weight: 400;
+border-radius: 8px;
+background-color: #FFF;
+width:100%;
+}
+/* footer styles */
+
+footer{
+background-color:#272727;
+/* text-align: center; */
+height:350px;
+display: flex;
+align-items:center;
+justify-content: center;
+}
+footer h3{
+text-align: center; 
+font-size: 48px;
+font-weight: 800;
+margin-bottom: 24px;
+}
+
+footer p{
+color: rgba(255, 255, 255, 0.90);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+max-width: 600px;
+margin-bottom: 35px;
+}
+.footer-text{
+color: rgba(255, 255, 255, 0.40);
+font-size: 16px;
+font-weight: 400;
+}

@@ -1,0 +1,55 @@
+/* common-styles */
+*{
+    font-family: 'Lato', sans-serif;
+    margin:0;
+}
+body{   
+    margin:0;
+}
+.btn{
+    border-radius: 8px;
+    background-color: #E55473;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    border:none;
+    padding:20px 40px;
+}
+
+.insta-deal,.featured-extra{
+    margin:90px;
+}
+
+/* header style */
+/* banner */
+.banner{
+    background-color: #E554731A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 115px;
+    gap:15px;
+}
+
+.banner-header-title{
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+}
+.banner-text h2, .banner-text p{
+    text-align: left;
+    margin-bottom: 30px;
+
+}
+.banner-text p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* banner image */
+.ban-image{
+    width: 435px;
+    height: 600px;
+}

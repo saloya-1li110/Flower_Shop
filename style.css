@@ -130,7 +130,7 @@ figure figurecaption h4{
     max-width:500px;
 }
 .box-container{
-    gap: 10px;
+   gap: 5px;
     display: flex;
     justify-content: space-around;
     
@@ -150,7 +150,7 @@ figure figurecaption h4{
     height: 300px;
    background-color: beige;
    margin-left: 150px;
-   margin-bottom: 50px;
+   margin-bottom: 100px;
     
 }
 .container{
@@ -158,6 +158,35 @@ figure figurecaption h4{
     justify-content: space-around;
    padding-top: 80px;
 }
+
+
+#abou{
+    width: 1200px;
+    height: 350px;
+     margin-left: 150px;
+     margin-bottom: 150px;
+     
+}
+
+.row{
+    clear: both;
+     margin-bottom: 20px;
+      margin: 2em 2em auto;
+}
+  .img1{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius:50%;
+    float: right;
+    shape-outside:circle();
+  }
+  .img2{
+    float: left;
+    shape-outside:circle();
+  }
+  
+
 
 
 /* deal  */
